@@ -1,5 +1,5 @@
-import {bla} from "./scripts/module1";
+import { bla } from './scripts/module1';
 
-console.log("hello world");
+console.log('hello world');
 
 bla();

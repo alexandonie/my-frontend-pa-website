@@ -1,7 +1,12 @@
-const bla=(aha   )=>{
-console.log("bla");
+const bla = () => {
+  console.log('blaa');
+};
+
+const anotherOne = () => {
+  console.log('another one');
 };
 
 export {
-bla
+  bla,
+  anotherOne,
 };
