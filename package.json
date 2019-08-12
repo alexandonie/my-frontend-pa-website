@@ -1,0 +1,24 @@
+{
+  "name": "my-frontend-pa-website",
+  "version": "1.0.0",
+  "description": "My front-end PA's presentation website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandonie/my-frontend-pa-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandonie/my-frontend-pa-website/issues"
+  },
+  "homepage": "https://github.com/alexandonie/my-frontend-pa-website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
