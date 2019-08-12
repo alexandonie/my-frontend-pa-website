@@ -13,6 +13,7 @@ build/
 # misc
 .DS_Store
 .env
+.cache
 npm-debug.log
 .sass-cache
 *.dmb
