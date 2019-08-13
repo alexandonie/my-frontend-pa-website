@@ -18,12 +18,12 @@
   }
 
   &__heading {
-    margin: 0 0 12px;
+    margin-bottom: 12px;
     line-height: 125%;
   }
 
   &__subheading {
-    margin: 0 0 48px;
+    margin-bottom: 48px;
 
     font-size: 1.142rem;
     font-weight: 300;
@@ -31,7 +31,7 @@
   }
 
   &__features {
-    @extend .unstyled-list;
+    @extend .list-unstyled;
 
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@
     }
 
     &__subheading {
-      margin: 0 0 72px;
+      margin-bottom: 72px;
       font-size: 1.285rem;
     }
 

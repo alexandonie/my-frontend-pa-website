@@ -20,11 +20,21 @@
 
     z-index: -1;
   }
+
+  &__heading {
+    margin-bottom: 56px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
   .section {
     padding-top: 104px;
     padding-bottom: 136px;
+
+    &__heading {
+      margin-bottom: 64px;
+      text-align: left;
+    }
   }
 }
