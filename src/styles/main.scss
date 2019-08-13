@@ -1,14 +1,13 @@
 @import '~normalize.css/normalize';
 
-html, body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+@import 'vars';
+@import 'base';
 
-  // making sure the fonts will render the same across different web browsers
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+@import 'components/badge';
+@import 'components/button';
 
-  background: pink;
-}
+@import 'sections/base';
+@import 'sections/billboard';
+@import 'sections/features';
+@import 'sections/faq';
+@import 'sections/footer';

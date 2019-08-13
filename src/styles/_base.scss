@@ -1,0 +1,39 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: $black;
+
+  // making sure the fonts will render the same across different web browsers
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body:before {
+  content: '';
+
+  display: block;
+  width: 100%;
+  height: 3px;
+
+  background: linear-gradient(90deg, $accent-green 0%, $accent-green 25%, $accent-pink 25%, $accent-pink 50%, $accent-blue 50%, $accent-blue 75%, $accent-orange 75%, $accent-orange 100%);
+}
+
+h1 {
+  font-size: 2.285rem;
+}
+
+h3 {
+  font-size: 1.714rem;
+}
+
+h4 {
+  font-size: 1.142rem;
+}
+
+.unstyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
