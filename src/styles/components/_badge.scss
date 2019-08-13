@@ -1,8 +1,44 @@
 .badge {
+  position: relative;
   padding: 4px 6px;
   box-sizing: border-box;
 
   font-size: 1.142rem;
   font-weight: 400;
   background: $gray-200;
+
+  &:before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: $teal-900;
+    transition: all 0.3s ease-in;
+
+    z-index: -1;
+  }
+
+  &--peek-top:before {
+    top: -2px;
+    background: $accent-green;
+  }
+
+  &--peek-right:before {
+    right: -2px;
+    background: $accent-orange;
+  }
+
+  &--peek-bottom:before {
+    bottom: -2px;
+    background: $accent-pink;
+  }
+
+  &--peek-left:before {
+    left: -2px;
+    background: $accent-blue;
+  }
 }

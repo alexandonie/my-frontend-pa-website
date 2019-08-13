@@ -45,45 +45,7 @@
     margin-bottom: 104px;
 
     li {
-      @extend .badge;
-
-      position: relative;
       margin: 0 16px 16px 0;
-
-      &:before {
-        content: '';
-
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-
-        background: $teal-900;
-        transition: all 0.3s ease-in;
-
-        z-index: -1;
-      }
-    }
-
-    li.peek-top:before {
-      top: -2px;
-      background: $accent-green;
-    }
-
-    li.peek-right:before {
-      right: -2px;
-      background: $accent-orange;
-    }
-
-    li.peek-bottom:before {
-      bottom: -2px;
-      background: $accent-pink;
-    }
-
-    li.peek-left:before {
-      left: -2px;
-      background: $accent-blue;
     }
   }
 }
