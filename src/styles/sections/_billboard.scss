@@ -1,11 +1,6 @@
 .billboard {
-  min-height: 100vh;
-  padding-top: 88px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 104px;
 
   &:before {
     background: $white;
@@ -13,8 +8,8 @@
 
   &__logo {
     display: block;
-    max-width: 40px;
-    margin-bottom: 40px;
+    max-width: 32px;
+    margin-bottom: 32px;
 
     img {
       display: block;
@@ -28,9 +23,9 @@
   }
 
   &__subheading {
-    margin: 0 0 72px;
+    margin: 0 0 48px;
 
-    font-size: 1.285rem;
+    font-size: 1.142rem;
     font-weight: 300;
     line-height: 150%;
   }
@@ -41,11 +36,35 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 436px;
-
-    margin-bottom: 104px;
+    margin-bottom: 56px;
 
     li {
       margin: 0 16px 16px 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .billboard {
+    min-height: 100vh;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    &__logo {
+      max-width: 40px;
+      margin-bottom: 40px;
+    }
+
+    &__subheading {
+      margin: 0 0 72px;
+      font-size: 1.285rem;
+    }
+
+    &__features {
+      margin-bottom: 104px;
     }
   }
 }

@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 860px;
   margin: 0 auto;
-  padding: 104px 30px 136px;
+  padding: 56px 30px;
   box-sizing: border-box;
 
   &:before {
@@ -19,5 +19,12 @@
     margin-left: -50vw;
 
     z-index: -1;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 104px;
+    padding-bottom: 136px;
   }
 }
