@@ -10,6 +10,27 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     margin-bottom: 56px;
+
+    -ms-grid-columns: 1fr 1fr;
+    li:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+
+    li:nth-child(2) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 1;
+    }
+
+    li:nth-child(3) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 2;
+    }
+
+    li:nth-child(4) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 2;
+    }
   }
 
   &__item-heading {
