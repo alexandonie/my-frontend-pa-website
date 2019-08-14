@@ -1,7 +1,41 @@
 .faq {
-  color: #fff;
-
   &:before {
     background: $teal-800;
   }
+
+  .section__heading {
+    text-align: center;
+    color: $white;
+  }
+
+  &__item {
+    @extend .card;
+
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 35px;
+    padding-bottom: 40px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      content: '';
+
+      position: absolute;
+      top: 30px;
+      bottom: 30px;
+      left: 0;
+      display: block;
+      width: 5px;
+
+      background: $teal-900;
+    }
+  }
+
+  &__item--green:before { background: $accent-green; }
+  &__item--pink:before { background: $accent-pink; }
+  &__item--blue:before { background: $accent-blue; }
+  &__item--orange:before { background: $accent-orange; }
 }

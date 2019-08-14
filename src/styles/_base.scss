@@ -42,6 +42,24 @@ h4 {
   padding: 0;
 }
 
+dl {
+  margin: 0;
+
+  dt, dd {
+    margin: 0;
+  }
+
+  dt {
+    margin-bottom: 10px;
+    font-size: 1.142rem;
+    font-weight: 700;
+  }
+
+  dd {
+    line-height: 160%;
+  }
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 2.285rem;
