@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/alexandonie/my-frontend-pa-website/issues"
   },
-  "homepage": "https://github.com/alexandonie/my-frontend-pa-website#readme",
+  "homepage": "https://www.myfrontendpa.alexandonie.com/",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "eslint": "^6.1.0",
