@@ -55,6 +55,10 @@
   .footer {
     flex-direction: row;
 
+    &__details {
+      flex-grow: 1;
+    }
+
     &__links {
       margin-bottom: 0;
     }
