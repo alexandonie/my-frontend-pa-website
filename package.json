@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/alexandonie/my-frontend-pa-website#readme",
   "devDependencies": {
+    "core-js": "^3.2.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "parcel-bundler": "^1.12.3",
+    "regenerator-runtime": "^0.13.3",
     "sass": "^1.22.9"
   },
   "dependencies": {
