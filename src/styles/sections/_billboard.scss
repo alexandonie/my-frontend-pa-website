@@ -44,6 +44,7 @@
   }
 }
 
+// Targeting IE11 to get around the issue of flexbox not behaving in a min-height environment
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .billboard {
     height: 100vh;
