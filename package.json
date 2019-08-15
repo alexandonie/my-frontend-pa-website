@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html sitemap.xml --no-source-maps"
+    "build": "parcel build src/index.html sitemap.xml --no-source-maps",
+    "clean": "rm -rf dist/*"
   },
   "repository": {
     "type": "git",
