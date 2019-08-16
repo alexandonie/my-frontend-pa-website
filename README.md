@@ -1,8 +1,8 @@
 # My frontend PA website
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![peerDependencies Status](https://img.shields.io/david/peer/alexandonie/my-frontend-pa.svg)](https://david-dm.org/alexandonie/my-frontend-pa?type=peer)
-[![devDependency Status](https://img.shields.io/david/dev/alexandonie/my-frontend-pa.svg)](https://david-dm.org/alexandonie/my-frontend-pa?type=dev)
+[![peerDependencies Status](https://img.shields.io/david/peer/alexandonie/my-frontend-pa-website.svg)](https://david-dm.org/alexandonie/my-frontend-pa-website?type=peer)
+[![devDependency Status](https://img.shields.io/david/dev/alexandonie/my-frontend-pa-website.svg)](https://david-dm.org/alexandonie/my-frontend-pa-website?type=dev)
 
 This is the presentation website for [my-frontend-pa](https://github.com/alexandonie/my-frontend-pa), a webpack boilerplate for static websites that can do es6, handlebars and sass between many other things. It has been built using a [different bundler](https://parceljs.org) for learning and researching purposes.
 
