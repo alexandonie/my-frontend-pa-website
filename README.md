@@ -39,7 +39,7 @@ npm run dev
 
 This will run the project in development mode. It will start a local dev server, it will generate source maps and everything that's required for a modern front-end development environment.
 
-If you want to get the project production ready, then everything you have to do is to run:
+If you want to get the project production ready, then all you have to do is to run:
 
 ```bash
 npm run build
