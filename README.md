@@ -72,7 +72,7 @@ my-frontend-pa-website
 
 ## Author
 
-**Alex Andonie**
+Designed and coded by me 😁
 
 -   Website: <https://alexandonie.com/>
 -   Github: <https://github.com/alexandonie/>
